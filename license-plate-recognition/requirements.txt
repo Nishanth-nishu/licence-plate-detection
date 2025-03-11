@@ -1,0 +1,7 @@
+gradio
+ultralytics
+easyocr
+torch
+torchvision
+opencv-python-headless
+numpy

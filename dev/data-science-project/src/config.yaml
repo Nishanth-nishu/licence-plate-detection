@@ -1,0 +1,29 @@
+dataset:
+  detection_images: "data/detection/test.zip"
+  recognition_images: "data/recognition/Licplatesrecognition_train.zip"
+  annotations_csv: "data/Licplatesdetection_train.csv"
+
+model:
+  type: "YOLOv8"
+  config: "yolov8n.yaml"
+  num_classes: 1
+  class_names: ["license_plate"]
+
+training:
+  epochs: 50
+  batch_size: 16
+  img_size: 640
+  augment: true
+  project_dir: "yolo_training"
+  model_name: "license_plate_model"
+
+validation:
+  split_ratio: 0.2
+
+output:
+  labels_dir: "yolo_labels"
+  train_images_dir: "train/images"
+  train_labels_dir: "train/labels"
+  val_images_dir: "val/images"
+  val_labels_dir: "val/labels"
+  data_yaml: "data.yaml"
