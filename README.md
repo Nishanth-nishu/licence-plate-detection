@@ -5,7 +5,7 @@ This project aims to develop a system for detecting and recognizing license plat
 
 ## Project Structure
 ```
-licence-plate-detection-project
+dev/data-science-project
 |
 ├── src
 │   ├── utils.py
