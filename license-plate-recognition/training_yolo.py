@@ -385,5 +385,5 @@ for img_path in test_images_path.glob("*.jpg"):
 # Save the results to a CSV
 df = pd.DataFrame(csv_data, columns=["id"] + [str(i) for i in range(10)])
 df.to_csv("license_plate_predictions2.csv", index=False)
-
+#
 print("CSV file with license plate predictions has been saved successfully.")
