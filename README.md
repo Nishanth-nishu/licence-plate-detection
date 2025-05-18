@@ -6,12 +6,7 @@ This project aims to develop a system for detecting and recognizing license plat
 ## Project Structure
 ```
 licence-plate-detection-project
-├── data
-│   ├── detection
-│   │   └── test.zip
-│   ├── recognition
-│   │   └── Licplatesrecognition_train.zip
-│   └── Licplatesdetection_train.csv
+|
 ├── src
 │   ├── utils.py
 │   ├── setup.py
